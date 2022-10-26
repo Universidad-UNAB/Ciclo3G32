@@ -1,0 +1,27 @@
+Microservicios
+
+*Apliaciones distribuidas
+	*La aplicación esta por partes. (No esta junta)
+	*Los componentes pueden funcionar de manera independiente.
+	*Servicios en varias computadoras.
+	*Archivos ejecutables independientes.
+	
+	Desventajas: 
+		Complejidad en su construcción.
+
+*Apliaciones monolíticas
+	*La aplicación esta toda en un solo luga
+	r.
+	*Sencillo proceso de instalacción
+	*Todas las capas del sistema esta en us solo lugar
+	*Despliegue sobre una misma plataforma.
+	
+	Desventajas: 
+		Proceso de desarrollo poco escalable
+		Una falla afecta todo el sistema
+		
+
+¿Ciclo 3, monolítica o distribuida?
+
+Netbeans - Spring boot tool
+	
