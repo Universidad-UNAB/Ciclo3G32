@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "bootswatch": "^5.2.2",
+    "chart.js": "^3.9.1",
+    "materialize": "^1.0.0"
+  }
+}
