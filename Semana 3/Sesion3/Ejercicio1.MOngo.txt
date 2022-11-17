@@ -1,0 +1,57 @@
+Se requiere crear una base de datos en NOSQL(mongodb), que permita registrar la información de la siguiente manera: 
+Notas del grupo g32, en consecuencia, se debe crear una base de datos que permita registrar los datos de la siguiente manera: 
+NombreCompleto, Sprint-1, Sprint-2, Sprint-3, Sprint-4, Sprint-5. 
+Finalmente, realizar la consulta con db.g32.find().pretty(), copiar y pegar esta información en un archivo de extensión (.js, json, txt) para demostrar el resultado de esta actividad. 
+
+
+// Crear base de datos
+USE g32
+
+// Crear collection
+db.createCollection("notas-grupo32")
+
+db.NotasGrupo32.insert(
+    {
+        NombreCompleto:"Andres Felipe",
+        Sprint1:4,
+        Sprint2:"",
+        Sprint3:0,
+        Sprint4:2.2,
+        Sprint5:""
+    }
+)
+
+db.NotasGrupo32.find().pretty()
+{
+        "_id" : ObjectId("636c3e5b9639763ff45a6d16"),
+        "NombreCompleto" : "",
+        "Sprint1" : 3,
+        "Sprint2" : 3.9,
+        "Sprint3" : 3.6,
+        "Sprint4" : 3.2,
+        "Sprint5" : 4.6
+}
+{
+        "_id" : ObjectId("636c3e889639763ff45a6d17"),
+        "NombreCompleto" : "Camila",
+        "Sprint1" : 2.4,
+        "Sprint2" : 3.2,
+        "Sprint3" : 4.9,
+        "Sprint4" : 2.2,
+        "Sprint5" : 2.6
+}
+{
+        "_id" : ObjectId("636c3eb69639763ff45a6d18"),
+        "NombreCompleto" : "Andres Felipe",
+        "Sprint1" : 4,
+        "Sprint2" : "",
+        "Sprint3" : 0,
+        "Sprint4" : 2.2,
+        "Sprint5" : ""
+}
+
+
+Crear un nueva colección que permita registrar n canntidad de materias para la Universidad, 
+se debe solicitar: NombreMateria, CantidadHoras,        .
+
+Finalmente, mostrar la n cantidad de registros realizados. 
